@@ -1,6 +1,6 @@
 function Message(){
     //JXS - Javascript XML
-    const name = "Sru";
+    const name = "Sruthadev";
     if(name)
         return <h1>Hello {name}</h1> 
     else
