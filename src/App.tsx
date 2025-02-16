@@ -2,6 +2,7 @@ import { useState } from "react";
 import Alert from "./components/Alert";
 import Button from "./components/Button";
 import ListGroup from "./components/ListGroup";
+import Counter from "./components/Counter";
 
 function App() {
   let items = ["Kochi", "Melbourne", "London", "New York"];
@@ -18,12 +19,13 @@ function App() {
     //         </Alert>
     // </div>
     <div>
-      {alertVisible && (
+      {/* {alertVisible && (
         <Alert onClose={() => setAlertVisibility(false)}>My Alert</Alert>
       )}
       <Button color="primary" onClick={() => setAlertVisibility(true)}>
-        My button
-      </Button>
+        My button */}
+      {/* </Button> */}
+      <Counter />
     </div>
   );
 }
